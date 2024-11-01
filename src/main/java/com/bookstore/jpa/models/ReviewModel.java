@@ -38,4 +38,12 @@ public class ReviewModel implements Serializable {
     public void setComment(String comment) {
         this.comment = comment;
     }
+
+    public BookModel getBook() {
+        return book;
+    }
+
+    public void setBook(BookModel book) {
+        this.book = book;
+    }
 }
